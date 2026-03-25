@@ -1,0 +1,223 @@
+/*BODY*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #fa9427;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVIGATION BAR*/
+.nav-bar {
+    background-color: #000000;
+    padding: 5px;
+    top: 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-bar a:hover {
+    color: #fa9427;
+}
+
+.nav-bar .logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-bar .logo a {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.nav-bar .logo a:hover {
+    color: #fa9427;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #fa9427;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
+
+/*NARUTO TITLE*/
+.title {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/*MAIN CSS DESIGN*/
+.home {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #a7631b;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #000000;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.home h2 {
+    margin-top: 25px;
+    color: #ffffff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.home h3 {
+    margin-top: 15px;
+    color: #ffffff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.home p {
+    margin-bottom: 18px;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+.home ul li{
+    margin-bottom: 20px;
+}
+
+.home ul li strong{
+    font-size: 20px;
+    color: #fa9427;
+}
+
+.home ol li{
+    margin-bottom: 20px;
+}
+
+.home ol li strong{
+    font-size: 20px;
+    color: #fa9427;
+}
+
+/*LINK TO WEBSITES*/
+.site {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 60px;
+}
+
+
+.site a.button {
+    padding: 8px 15px;
+    background-color: #fa9427; 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.site a.button:hover {
+    background-color: #e88723;
+}
+
+/*REVIEWS*/
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.review {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #a7631b;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #000000;
+}
+
+.review h2{
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.review h3{
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 17px;
+    padding: 5px 10px;
+    color: #f4f4f4;
+}
+.rev {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #fa9427;
+    text-align: center;
+}
+
+.rev p {
+    color: #9b5c19;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.rev .button {
+    padding: 8px 15px;
+    background-color: #9b5c19; 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.rev .button:hover {
+    background-color: #c2701f;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+footer .foot p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
