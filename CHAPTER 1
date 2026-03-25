@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Introduction to HTML and CSS with (BONUS)</title>
+    <link rel="stylesheet"href="cp1.css"type="text/css"> <!--External stylesheet-->
+</head>
+<body>
+    
+
+    <!--A h1 tag for the recipe name-->
+    <h1>Binangkal</h1>
+    
+
+    <!--A p tag for a description of the recipe-->
+    <i><p>Binangkal is a native doughnut from Mindanao and Visayas, 
+        but also commonly found in most homegrown neighborhood bakeries 
+        or panaderias in the Philippines.
+    </p></i>
+
+    
+    <div class="recipe">
+        <h2>Ingredients</h2><!--A h2 tag for the ingredients-->
+        <ul class="ingredients">
+            <!--An unorder list for the ingredients-->
+            <li>2 cups all-purpose flour</li>
+            <li>1/4 Cup cornstarch</li>
+            <li>3/4 Cup white sugar</li>
+            <li>1/4 teaspoon Salt</li>
+            <li>1 teaspoon baking powder</li>
+            <li>2 tablespoons salted butter melted</li>
+            <li>1 large egg</li>
+            <li>1/2 Cup evaporated milk</li>
+            <li>1/2 Cup sesame seeds,</li>
+            <li>1/4 teaspoon vanilla (Optional)</li>    
+
+            <img src="Binangkal Recipe & How to Cook Guide.jpg" width="400px" height="300px">
+
+        </ul>        
+    </div>
+
+    
+    <div class="instruction">
+    <h2>Method</h2> <!--An h2 tag for the method-->
+    <ol class="ins2">
+        <!--An order list for the steps involved in the recipe 'method'-->
+        <li>Combine all dry ingredients in a bowl: flour, cornstarch, sugar, salt, and baking powder. Mix well.</li>
+        <li>In a separate bowl mix together milk, melted butter, and egg. Mix well.</li>
+        <li>Slowly add the dry ingredients into the wet mixture. Mix well to form a dough..</li>
+        <li>Scoop a tablespoon mixture to form a ball and roll it into the sesame seeds..</li>
+        <li>Prepare oil in a pan for deep frying. Make sure the oil is hot before putting the dough.</li>
+        <li>Deep fry until golden brown.</li>
+        
+    </ol>
+    
+    <!--Video link for tutorial-->
+        <h2>
+            <a href="https://www.youtube.com/watch?v=BQ6H4qb5VDM" class ="link">CLICK HERE FOR TUTORIAL </a>
+        </h2>
+    </div>
+</body>
+</html>
+
+
+/*BODY*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdf5e6;
+    color: #4a3728;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: #8b4513;
+    padding: 20px;
+    margin:auto;
+    font-size: 40px;
+}
+h2 {
+    padding: 20px;
+    color:aliceblue
+}
+
+p {
+    padding: 20px;
+    margin-top: auto;
+    text-decoration: solid;
+}
+
+.recipe {
+    max-width: 800px;
+    border: 5px solid #5e3110;
+    border-radius: 20px;
+    background-color: #a56b41;
+    color: #8b4513;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ingredients {
+    color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*FOOD IMAGE*/
+img{
+    flex: block;
+    margin: -370px 0px 0px 300px;
+    border: 7px solid #8b4513;
+}
+
+.instruction {
+    max-width: 800px;
+    border: 5px solid #5e3110;
+    border-radius: 20px;
+    background-color: #a56b41;
+    color: #8b4513;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ins2 {
+    color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.link {
+    background-color: #4a3728;
+    color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.link:hover {
+    background-color: #993d00;
+}
