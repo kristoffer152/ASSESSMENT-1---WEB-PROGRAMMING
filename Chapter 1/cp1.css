@@ -1,0 +1,79 @@
+/*BODY*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdf5e6;
+    color: #4a3728;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: #8b4513;
+    padding: 20px;
+    margin:auto;
+    font-size: 40px;
+}
+h2 {
+    padding: 20px;
+    color:aliceblue
+}
+
+p {
+    padding: 20px;
+    margin-top: auto;
+    text-decoration: solid;
+}
+
+.recipe {
+    max-width: 800px;
+    border: 5px solid #5e3110;
+    border-radius: 20px;
+    background-color: #a56b41;
+    color: #8b4513;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ingredients {
+    color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*FOOD IMAGE*/
+img{
+    flex: block;
+    margin: -370px 0px 0px 300px;
+    border: 7px solid #8b4513;
+}
+
+.instruction {
+    max-width: 800px;
+    border: 5px solid #5e3110;
+    border-radius: 20px;
+    background-color: #a56b41;
+    color: #8b4513;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ins2 {
+    color:aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.link {
+    background-color: #4a3728;
+    color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.link:hover {
+    background-color: #993d00;
+}
