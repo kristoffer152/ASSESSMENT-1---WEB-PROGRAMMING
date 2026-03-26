@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: BONUS (RGB Colour Guessing Game)</title>
+    <link rel="stylesheet" href="cp6rgb.css">
+</head>
+<body>
+
+    <!--TITLE-->
+    <h1 data-text="RGB Colour Guessing Game">RGB Colour Guessing Game</h1>
+
+    <!--MAIN CONTAINER-->
+    <div class="game">
+        
+        <!--Present the user with the rgb value they need to guess-->
+        <h2 id="rgb">RGB(0, 0, 0)</h2>
+
+        <!--LIVES-->
+        <p id="lives">Lives: 3 | Score: 0</p>
+
+        <!--MESSAGE-->
+        <p id="message"></p>
+
+        <!--COLOUR OPTIONS-->
+        <div class="color" id="cbox"></div>
+
+        <!--Ability to replay the game-->
+        <button id="replay" style="display:none;">Try Again</button>
+
+    </div>
+    <script src="cp6rgb.js"></script>
+</body>
+</html>

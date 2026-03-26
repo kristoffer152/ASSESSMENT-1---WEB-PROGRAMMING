@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Petrol Calculator</title>
+    <link rel="stylesheet" href="cp6.css">
+</head>
+    
+<body>
+    <!--HEADER-->
+    <header>
+        <h3>اينوك</h3>
+        <h2>enoc</h2>
+    </header>
+
+    <div class="calculator">
+        
+        <h1>Petrol Calculator</h1>
+
+        <!-- A field for the user the enter the cost of petrol per liter. This should have a default value of 1.72-->
+        <label for="price">Cost of Petrol per Liter (AED)</label>
+        <input 
+            type="number" 
+            id="price" 
+            value="1.72" 
+            step="0.01"
+        >
+
+        <!--A field for the user to enter the number of liters purchased. This should have a default value of 0-->
+        <label for="liters">Number of Liters Purchased</label>
+        <input 
+            type="number" 
+            id="liters" 
+            value="0" 
+            step="0.01"
+        >
+
+        <!--A button that when clicked calculates the total cost of the petrol purchased and displays the result to the screen-->
+        <button id="calculate">Calculate Total</button>
+
+        <!--A p tag to display the total cost-->
+        <p id="total">Total: AED 0.00</p>
+
+    </div>
+
+    <script src="cp6.js"></script>
+
+</body>
+</html>
