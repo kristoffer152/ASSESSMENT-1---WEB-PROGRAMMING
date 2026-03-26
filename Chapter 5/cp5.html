@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5: Embedded Content</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #02030a;
+        }
+        
+        body::before{
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,20,0.65);
+            z-index: -1;
+        }
+        
+        /*Be centred on the page horizontally and vertically.*/
+        video {
+            max-width: 90vw;
+            max-height: 90vh;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Loop-->
+    <video controls loop poster="image.png"> <!--Display a relevant poster image-->
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

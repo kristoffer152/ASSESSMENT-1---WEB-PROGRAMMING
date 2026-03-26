@@ -1,0 +1,144 @@
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*MAIN CONTAINER*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 50px;
+    align-items: flex-start;
+}
+
+/*TEXT TO SPEECH*/
+.tts {
+    width: 40%;
+}
+
+.tts-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #e63946;
+    margin-bottom: 5px;
+    width: 55%;
+}
+
+
+.tts-row {
+    display: flex;
+    gap: 15px;
+}
+
+#text {
+    flex: 1;
+    height: 220px;
+    border: none;
+    padding: 15px;
+    font-size: 25px;
+    resize: none;
+    border-radius: 15px;
+}
+
+/*SAY IT BUTTON*/
+#speak {
+    width: 100px;
+    height: 80px;
+    font-size: 25px;
+    background: black;
+    color: white;
+    border: 8px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+#speak:hover {
+    background: #575757;
+}
+
+/*SOUND BOARD*/
+.sound {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sound-title {
+    font-size: 30px;
+    color: #e63946;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+/*SOUNDBOARD GRID*/
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.sample {
+    background: #eee;
+    border: 6px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sample:hover {
+    background: #e63946;
+    color: white;
+}
+
+.sample .number {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sample .name {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.sample .duration {
+    font-size: 16px;
+}
+
+/*ARROW KEYS*/
+.arrow {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#left, #right {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+#left:hover, #right:hover {
+    background: #ddd;
+}

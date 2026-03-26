@@ -1,0 +1,69 @@
+/*I MADE THE CSS STYLING EXACTLY AS THE EXAMPLE REFERENCE*/
+
+/*BODY*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/*HEADER*/
+header{
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: #fd3041;
+    padding:0px 750px;
+    font-size: 12px;
+    box-shadow:  2px 2px 8px rgba(0,0,0,0.4);
+}
+
+/*SOUNDS*/
+.soundboard{
+    margin: auto;
+    display:grid; /*Display all samples on a single non-scrolling page*/
+    grid-template-columns: repeat(3, 530px);
+    gap:30px;
+    padding: 60px 35px;
+}
+
+.sample{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:white;
+    border:10px solid black;
+    border-radius:20px;
+    padding:40px 25px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.sample:hover {
+    background: #e63946; /*Change the colour of the background, and text, when the user hovers over a sample*/
+    color: white;
+}
+
+.sample .number {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sample .name {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sample .duration {
+    display: block;
+    font-size: 24px;
+}
